@@ -300,7 +300,7 @@ class Professor extends Funcionario{
 // Professor de Matemática com 25 horas de aula por semana
 const professor1 = new Professor('Heitor', 35, 3000, 'Matemática', 25, 50); 
 
-// Professor de História com 30 horas de aula por semana
+// Professor de Programação com 30 horas de aula por semana
 const professor2 = new Professor('Danilo', 40, 3500, 'Programação', 30, 100);
 
 // Chama o método calcularSalario para cada professor e mostra o salário calculado no console
