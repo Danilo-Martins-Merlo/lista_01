@@ -30,7 +30,7 @@ class Professor extends Funcionario{
 
     // Multiplica as horasAula pelo valorHora para obter o salário do professor
     calcularSalario(){
-        return this.horasAula * this.valorHora;
+        return (this.horasAula * this.valorHora) + this.salarioB;
     }
 }
 
