@@ -285,7 +285,7 @@ class Professor extends Funcionario{
         //Herda da classe Pai (Funcionário) os atributos nome, idade, e salário base.
         super(nome, idade, salarioB);
 
-        // Cria os atributos disciplina, horasAula e valorHora para cara Professor
+        // Cria os atributos disciplina, horasAula e valorHora para cada Professor
         this.disciplina = disciplina;
         this.horasAula = horasAula
         this.valorHora = valorHora
